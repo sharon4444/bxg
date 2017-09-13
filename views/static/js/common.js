@@ -14,7 +14,6 @@
 
     // 头部退出功能
     $("#logout-btn").click(function(){
-      console.log(1)
       $.ajax({
         url:"/api/logout",
         type:"post",
